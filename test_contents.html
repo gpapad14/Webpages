@@ -1,0 +1,73 @@
+<!document html>
+<html>
+
+<head>
+	<title> Test website </title>
+	<meta charset="UTF-8">
+	<meta name="description" content="website while studing">
+	<meta name="author"	 content="Giorgos Papadopoulos">
+	<meta name="keywords"	 content="giorgos,GPapad">
+</head>
+
+<!-- ================================================== -->
+<body style="background-color:powderblue;">
+
+<h3> Contents <font size=-1> <a href="test_doc.html" target="main"> (book) </a> </font> </h3> 
+
+
+<!-- ORGANIZED LIST ========================== -->
+
+<OL type="1" start="0">
+
+<!-- OR start="1" & no need of value in the next line -->
+<!--			v			   -->
+	<li type="i" value="1"> <i> Preface </i> 
+			<UL type="square">
+				<li> euxaristies </li>
+				<li> skopos </li>
+			</ul> 
+	</li>
+
+	<hr width="100%">
+
+	<li value="1"> <i> <a href="test_doc.html#c1" target="main"> Chapter 1 </a> </i>
+		<ul>
+			<li type="disc"> Forces </li>
+			<li type="circle"> Kinematics </li>
+			<li type="disc"> Coordinate system </li>	
+			
+		</ul>
+	</li>
+
+	<hr> 
+
+	<li> <i> <a href="test_doc.html#c2" target="main"> Chapter 2 </a> </i> </li>
+
+	<hr>
+
+
+	<li> <i> <font color="grey"> Bibliography </font> </i> </li>
+
+	<hr>
+
+
+</ol>
+
+<!-- ORGANIZED LIST END ========================== -->
+
+<a onmouseover="document.rollover.src='ntuamap2.png'" onmouseout="document.rollover.src='ntuamap.jpg'">
+<IMG src="ntuamap.jpg" width="300" height="180" alt="NTUA map" name="rollover" USEMAP="#semfe">
+
+<MAP name="semfe">
+	<area shape="rect" coords="115,98,152,111" href="test_pd.html" target="main">
+	<area shape="rect" coords="153,98,184,129" href="test_general.html" target="main">
+	<area shape="circle" coords="110,70,16" href="test_viv.html" target="main">
+</map>
+
+ 
+
+
+</body>
+
+
+</html>
